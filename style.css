@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: courier, sans-serif;
+    text-align: center;
+}
+
+.display {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    color: black;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 2px solid green;
+    //thank you to chat gbt for margin, we love you
+
+}
+
+.button.one {
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid green;
+    
+}
+
+.button.two {
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid green;
+    
+}
+
