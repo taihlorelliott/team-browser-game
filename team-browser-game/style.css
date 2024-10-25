@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: courier, sans-serif;
+    text-align: center;
+}
+
+.display {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    color: black;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 2px solid green;
+    //thank you to chat gbt for margin, we love you
+
+}
+
+
+
+#Start { /* i added cursor pointer so when you pass 
+    the cursor changes*/ 
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid green;
+    cursor: pointer; 
+    font-weight: 900; /* added a font weight to make the letters seem better*/
+}
+#Start:hover{ /* added a hover feature to make it look cool when you select 
+    the start button */
+color: rgb(255, 128, 0);
+}
+#Front{
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid green;
+    cursor: pointer; 
+    font-weight: 900;
+}
+#Front:hover{ /* added a hover feature to make it look cool when you select 
+    the Front button */
+color: rgb(255, 128, 0);
+}
+#Back:hover{ /* added a hover feature to make it look cool when you select 
+    the Back button */
+color: rgb(255, 128, 0);
+}
+#Back{
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid green;
+    cursor: pointer; 
+    font-weight: 900;
+}
+.text-black{   /* this is the property i created to add to the span class*/
+    color: rgb(0, 0, 0);
+    font-family: courier, sans-serif; 
+    font-weight: 900;
+}
+.display{
+    color: rgb(0, 0, 0);
+    font-family: courier, sans-serif;  
+    font-weight: 900;
+}
+
+ /*
+.button.two {
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid green;
+    
+}
+*/
